@@ -1,0 +1,924 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navBarContainer {
+    width: 100%;
+    height: 4rem;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logoArea, .contactArea {
+    width: 13rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endpointsArea { 
+    width: 20rem;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContact { 
+    padding: 5px;
+    margin: 0px 10px;
+    font-family: "poppins";
+    font-weight: 400;
+    width: 25rem;
+
+}
+
+.btnContactUnit { 
+    background-color:rgb(44, 24, 94) ;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.btnContactUnit:hover { 
+    color: rgb(44, 25, 104);
+    background-color:rgb(185, 155, 255);
+    transition: 0.5s ease;
+}
+
+.btnContactGitHub { 
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color:rgb(136, 109, 201);
+    border: 2px solid #fff;
+}
+
+
+.infoContainer{ 
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+}
+
+.endpointList{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.endpointList li { 
+    margin: 0px 6px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.infoTextArea {
+    width: 23rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 1rem 0px;
+    border-bottom: 1px solid #8000ff;
+    margin: 1rem;
+}
+
+.infoTextArea h1 {
+    font-family: "poppins";
+    font-weight: 700;
+    color: #5a5a5a;
+    margin: 0px 0px 10px 0px;
+}
+
+.infoTextArea p {
+    font-family: "poppins";
+    font-weight: 400;
+    color: #5d5d5d;
+}
+
+.infoImageArea{ 
+    width: 30rem;
+    height: 30rem;
+    margin: 0px 30px;
+}
+
+.itemContainer { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.item { 
+    width: 18rem;
+    height: 10rem;
+    background-color: rgb(233, 236, 255);
+    margin: 0px 20px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover { 
+    transform: translateY(-1%);
+    box-shadow: 1px 1px 2px rgba(133, 84, 255, 0.6);
+}
+
+.tituloItem{ 
+    text-align: center;
+    display: block;
+}
+
+.itemText{ 
+    text-align: center;
+}
+
+.certificateContainer { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textCertificate{ 
+    width: 30rem;
+    height: auto;
+    
+}
+
+.certificateItemContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 3rem 0px;
+    margin: 3rem 0px;
+}
+
+.certificateItem {
+    width: 35rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    box-shadow: 1px 2px 2px rgba(35, 53, 109, 0.2);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #c3c3c3;
+}
+
+.certificateItemText b{ 
+    display: block;
+    font-family: "poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin: 0px 0px 10px 0px;
+}
+
+.certificateItemText button a{ 
+    background-color: #7715e7;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.certificateInfoContainer{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.certicateTextContainer{ 
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0px 0px 0px;
+}
+
+.certicateImageContainer{ 
+    width: 35%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBootcamp{ 
+    width: 100%;
+}
+
+.certicateImageContainer{ 
+    margin: 2rem 0px;
+}
+
+.certicateTextContainer{ 
+    padding: 1rem 0px;
+}
+
+.certificateTitleText {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+    background-color: #1e1e1e;
+    padding: 5px 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.certicateTextContainer p { 
+    font-family: "poppins",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.iconPrograms{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{ 
+    margin: 5px;
+}
+
+.otherProgramsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0px;
+    padding: 2rem;
+}
+
+
+
+.programItem{ 
+    width: 10rem;
+    height: 7rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+
+.programItem:hover { 
+    transform: translateY(-1%);
+}
+
+.certificateItemCarrer{ 
+    width: 70rem;
+    height: 13rem;
+    display: block;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #1e1e1e;
+    transition: 0.2s ease;
+}
+
+.certificateItemCarrer:hover { 
+    background-color: #121212;
+}
+
+.projectContainer, 
+.projectTextContainer{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #121212;
+    padding: 5rem 0px;
+}
+
+.projectItem {
+    width: 25rem;
+    height: 26rem;
+    background-color: #191919;
+    margin: 5px;
+    box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.074);
+    margin: 10px;
+    transition: 0.1s ease;
+    padding: 28px 0px;
+}
+
+
+
+.projectItem:hover { 
+    /* transform: translateY(-1%); */
+    border-bottom: 1px solid rgb(89, 39, 205);
+}
+
+.projectTitle {
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ffffff;
+    display: block;
+}
+
+.projectTextArea{ 
+    width: 40%;
+    height: auto;
+    padding: 0px 0px 1rem 0px;
+}
+
+.projectText{ 
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.languageContainer{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #121212;
+    padding: 3rem 0px;
+
+}
+
+.languageText {
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 1px solid #E0FD53;
+}
+.languageItem{ 
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.language {
+    width: 15rem;
+    height: auto;
+    background-color: #0f0f0f;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 1px 2px 2px #e1fd5356;
+}
+
+.languageText b { 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.languageText p {
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.projectRecommended{ 
+    background-color: #7300ff;
+    color: #ffffff;
+    margin: 10px 20px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.projectName{ 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin: 10px 20px;
+    display: block;
+    color: #fff;
+}
+
+.programIconContainer{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.programIcon{ 
+    margin: 10px;
+    color: #fff;
+}
+
+.textProjectInfo{ 
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.btnSeeCode{ 
+    margin: 0px 20px;
+    background-color: #E0FD53;
+    color: #000000;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.commentLanguage{ 
+    background-color: #000000;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.language b{ 
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: block;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.btnLinkCertificate{ 
+    background-color: #7300ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0.2rem;
+    margin: 10px 0px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.fullStackBtn{ 
+    background-color: #7300ff;
+    color: #fff;
+    margin: 5px 0px;
+}
+
+.cerficateFullStack{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OtherProgamTitle { 
+    font-size: 1rem;
+    color: green;
+}
+
+.otherProgramTextContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem 0px;
+}
+
+.certificateTitleText { 
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+
+.contactHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    background-color: #b8b8b8;
+}
+
+.btnContact {
+    border: none;
+    background-color: #fff;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.footerContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    padding: 2rem 50px;
+}
+
+.footerText{ 
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.CertificadoText { 
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color: rgb(172, 172, 172);
+}
+
+.messageFooter { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 0px;
+    background-color: #191919;
+    flex-direction: column;
+}
+
+.messageFooter p{ 
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.btnContactFooter{ 
+    margin-top: 2rem;
+    background-color: #7300ff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btnContactFooter a{ 
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem; 
+    text-decoration: none;
+}
+
+
+.imageArea { 
+    width: 30rem;
+    height: 30rem;
+}
+
+.personalInfo{ 
+    width: 15rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+@media only screen and (max-width: 935px) {
+    .projectText {
+        font-size: .9rem;
+    }
+
+    .projectContainer, .projectTextContainer {
+        padding: 2rem 0px;
+    }
+
+    .projectTextArea {
+        width: 60%;
+    }
+
+    .certicateTextContainer {
+        width: 70%;
+    }
+
+    .certicateImageContainer {
+        width: 30rem;
+    }
+
+.certificateItemCarrer {
+    display: flex;
+    width: 38rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0px;
+}
+
+    .cerficateFullStack {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 1rem 0px;
+    }
+
+    .imgCoderhouseFullStck{ 
+        margin: 1rem;
+    }
+
+    .fullStackText { 
+        margin: 1rem;
+    }
+
+    .languageContainer {
+     padding: 5rem 55px; 
+    }
+
+    .fullStackText{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imageArea { 
+        width: 24rem;
+        height: 24rem;
+    }
+}
+
+@media only screen and (max-width: 725px){
+    .logoJorgeMora{ 
+        padding: 1rem 0px;
+    }
+
+    .projectTitle {
+        font-size: 2.3rem;
+    }
+
+    .imgPersonal{ 
+        width: 80%;
+    }
+
+    .imageArea { 
+        width: 21rem;
+        height: 21rem;
+    }
+    .footerContainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 635px){
+
+.certificateTitleText {
+    font-size: 1.3rem;
+    margin: 0px 2rem;
+}
+
+.certicateImageContainer {
+    width: 20rem;
+}
+
+.certificateItem {
+flex-direction: column;
+align-items: center;
+width: 25rem;
+}
+
+.certificateItemText { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectItem {
+    width: 21rem;
+}
+
+.certificateTitleText {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.8rem;
+    background-color: #1e1e1e;
+    padding: 5px 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.ImageArea { 
+    width: 18rem;
+    height: 18rem;
+}
+}
+
+@media only screen and (max-width: 500px){ 
+    .certificateTitleText {
+        font-size: 1rem;
+    }
+
+    .projectTitle {
+        font-size: 1.7rem;
+    }
+
+    .projectText {
+        font-size: .9rem;
+    }
+
+    .projectItem {
+        width: 20rem;
+    }
+
+    .projectRecommended {
+        background-color: #7300ff;
+        color: #ffffff;
+        margin: 10px 20px;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .projectName {
+        font-family: "poppins", sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin: 10px 20px;
+        display: block;
+        color: #fff;
+    }
+
+    .textProjectInfo {
+        font-family: "poppins",sans-serif;
+        font-weight: 300;
+        font-size: 0.9rem;
+        color: #fff;
+        padding: 5px 20px;
+    }
+
+    .certificateTitleText {
+        font-size: 1.3rem;
+    }
+
+    .certificateItemCarrer {
+        display: flex;
+        width: 30rem;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0px;
+    }
+
+    .certicateTextContainer p {
+        font-family: "poppins",sans-serif;
+        font-weight: 400;
+        font-size: 0.8;
+    }
+
+.certificateTitleText {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #1e1e1e;
+    padding: 5px 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+    .projectItem {
+        width: 21rem;
+        height: 22rem;
+    }
+
+    .certificateItemCarrer {
+        display: flex;
+        width: 26rem;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0px;
+    }
+
+    .infoTextArea h1 {
+        font-family: "poppins";
+        font-weight: 700;
+        color: #5a5a5a;
+        margin: 0px 0px 10px 0px;
+        font-size: 1.5rem;
+    }
+
+    .infoTextArea p {
+        font-family: "poppins";
+        font-weight: 400;
+        color: #5d5d5d;
+    }
+
+    .certificateItemText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .certificateItemText b {
+        display: block;
+        font-family: "poppins", sans-serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #3a3a3a;
+        margin: 10px;
+    }
+.certificateItemCarrer {
+    display: flex;
+    width: 26rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0px;
+    margin: 0;
+}
+}
+
+@media only screen and (max-width: 400px){ 
+    .projectItem {
+        width: 20rem;
+        height: auto;
+    }
+}
